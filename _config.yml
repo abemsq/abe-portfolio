@@ -1,30 +1,30 @@
 site: Abe Ahn
 
-url: abeahn.com
+url: https://abeahn.com
 baseurl: 
 
 collections:
   contact:
     output: true
-    permalink: /_contact
+    permalink: /contact
   blog:
     output: true
-    permalink: /posts/_blog/:slug
+    permalink: /blog
   finance:
     output: true
-    permalink: /posts/_finance/:slug
+    permalink: /finance
   marketing:
     output: true
-    permalink: /posts/_marketing/:slug
+    permalink: /marketing
   music:
     output: true
-    permalink: /posts/_music/:slug
+    permalink: /music
   projects:
     output: true
-    permalink: /posts/_projects/:slug
+    permalink: /projects
   resume:
     output: true
-    permalink: /posts/_resume/:slug
+    permalink: /resume
   tech:
     output: true
     permalink: /posts/_tech/:slug
