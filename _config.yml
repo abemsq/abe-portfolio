@@ -4,15 +4,31 @@ url:
 baseurl: 
 
 collections:
-  pages:
+  contact:
     output: true
-    permalink: /:name
-  posts:
+    permalink: /_contact
+  blog:
     output: true
-    permalink: /blog/:slug
+    permalink: /posts/_blog/:slug
+  finance:
+    output: true
+    permalink: /posts/_finance/:slug
+  marketing:
+    output: true
+    permalink: /posts/_marketing/:slug
+  music:
+    output: true
+    permalink: /posts/_music/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /posts/_projects/:slug
+  resume:
+    output: true
+    permalink: /posts/_resume/:slug
+  tech:
+    output: true
+    permalink: /posts/_tech/:slug
+
 
 defaults:
   -
