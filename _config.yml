@@ -13,6 +13,18 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  tech:
+    output: true
+    permalink: /project/:slug
+  finance:
+    output: true
+    permalink: /project/:slug
+  marketing:
+    output: true
+    permalink: /project/:slug
+  music:
+    output: true
+    permalink: /project/:slug
 
 defaults:
   -
