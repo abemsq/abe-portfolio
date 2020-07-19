@@ -1,34 +1,18 @@
-site: Abe Ahn
+site: Made Jekyll Theme
 
-url: https://abeahn.com
+url: 
 baseurl: 
 
 collections:
-  contact:
+  pages:
     output: true
-    permalink: /contact
-  blog:
+    permalink: /:name
+  posts:
     output: true
-    permalink: /blog
-  finance:
-    output: true
-    permalink: /finance
-  marketing:
-    output: true
-    permalink: /marketing
-  music:
-    output: true
-    permalink: /music
+    permalink: /blog/:slug
   projects:
     output: true
-    permalink: /projects
-  resume:
-    output: true
-    permalink: /resume
-  tech:
-    output: true
-    permalink: /posts/_tech/:slug
-
+    permalink: /project/:slug
 
 defaults:
   -
@@ -39,52 +23,21 @@ defaults:
   -
     scope:
       path: ""
-      type: "contact"
+      type: "pages"
     values:
-      layout: "contact"
+      layout: "page"
   -
     scope:
       path: ""
-      type: "blog"
+      type: "posts"
     values:
-      layout: "blog"
-  -
-    scope:
-      path: ""
-      type: "finance"
-    values:
-      layout: "finance"
-  -
-    scope:
-      path: ""
-      type: "marketing"
-    values:
-      layout: "marketing"
-  -
-    scope:
-      path: ""
-      type: "music"
-    values:
-      layout: "mmusic"
+      layout: "post"
   -
     scope:
       path: ""
       type: "projects"
     values:
-      layout: "projects"
-  -
-    scope:
-      path: ""
-      type: "resume"
-    values:
-      layout: "resume"
-  -
-    scope:
-      path: ""
-      type: "tech"
-    values:
-      layout: "tech"
-      
+      layout: "project"
 
 markdown: kramdown
 highlighter: rouge
@@ -105,4 +58,4 @@ plugins:
   - jekyll-sitemap
 
 paginate: 7
-paginate_path: "/posts/_blog/page-:num/"
+paginate_path: "/blog/page-:num/"
