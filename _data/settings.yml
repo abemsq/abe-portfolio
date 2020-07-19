@@ -8,8 +8,12 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
+    - title: 'Tech'
+      url: '/projects/'
+    - title: 'Finance'
+      url: '/finance/'
+    - title: 'Music'
+      url: '/music/'
     - title: 'Blog'
       url: '/blog/'
 
@@ -25,7 +29,7 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: ''
+  email_address: 'abemsq@gmail.com'
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
@@ -34,9 +38,9 @@ contact_settings:
 social_settings:
   facebook_url: ''
   twitter_url: ''
-  instagram_url: ''
+  instagram_url: 'https://instagram.com/abexmusic'
   snapchat_url: ''
-  youtube_url: ''
+  youtube_url: 'https://www.youtube.com/c/abexmusic'
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
@@ -49,15 +53,15 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
-  github_url: ''
+  github_url: 'https://github.com/abemsq/'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
   kickstarter_url: ''
-  soundcloud_url: ''
+  soundcloud_url: 'https://soundcloud.com/abemusicx'
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/abe-ahn-3960365a/'
 
 color_settings:
   background_color: '#ffffff'
