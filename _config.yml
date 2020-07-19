@@ -1,7 +1,7 @@
-site: Abe Ahn
+site: Made Jekyll Theme
 
-url: https://abeahn.com
-baseurl:
+url: 
+baseurl: 
 
 collections:
   pages:
